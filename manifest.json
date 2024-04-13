@@ -17,5 +17,7 @@
             "chickenificate.js"
         ]
       }
-    ]
+    ],
+
+    "web_accessible_resources": ["yt_wordmark_header_dark.png"]
 }
