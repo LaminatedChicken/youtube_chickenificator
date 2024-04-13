@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Chickenificator",
+    "version": "0.0.1",
+  
+    "description": "Replaces the YouTube logo with LaminatedChicken's custom one.",
+  
+    "icons": {
+      "48": "icons/chicken-48.webp"
+    },
+    
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["chickenificate.js"]
+      }
+    ]
+}
