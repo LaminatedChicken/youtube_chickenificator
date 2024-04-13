@@ -1,1 +1,1 @@
-console.log("ITS ALIVEEEEEE!")
+$("yt-icon#logo-icon").remove();
