@@ -1,3 +1,4 @@
+//icon replacement
 let oldIcon = $("yt-icon#logo-icon")[0];
 let parent = oldIcon.parentElement;
 oldIcon.remove();
@@ -7,3 +8,7 @@ newIcon.src = browser.runtime.getURL("yt_wordmark_header_dark.png");
 newIcon.width = 81;
 newIcon.height = 30;
 parent.appendChild(newIcon);
+
+
+//"GB" --> "CKN"
+$("span#country-code")[0].innerHTML = "CKN";
